@@ -4,6 +4,14 @@
     <meta charset="UTF-8">
     <title>Informacion</title>
     <meta name="description" content="Descripción" />
+
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 5px;
+        }
+    </style>
 </head>
 <body>
     <h2>Pagina de Informacion</h2>
@@ -12,6 +20,27 @@
     
     <img src="./imagenes/gato.jpg" alt="Aqui tendria que salir un gato, si no hay gato tenemos un problema">
     
-    
+    <hr>
+    <p>Una tabla con dos versiones distintas de JavaScript</p>
+    <table>
+        <tr>
+            <td>Ed.</td>
+            <td>Fecha</td>
+            <td>ECMAScript</td>
+        <td>Cambios significativos&nbsp;</td>
+        </tr>
+        <tr>
+            <td>16</td>
+            <td>JUN/2025</td>
+            <td>ES2025</td>
+            <td>Set helpers, Iterator helpers, Promise.try, import attributes...</td>
+        </tr>
+        <tr>
+            <td>15</td>
+            <td>JUN/2024</td>
+            <td>ES2024</td>
+            <td>groupBy, withResolvers, waitAsync, isWellFormed...</td>
+        </tr>
+    </table>
 </body>
 </html>
